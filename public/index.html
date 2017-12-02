@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Naveen Node Task</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="stylesheets/jquery.dataTables.min.css">
+        <link rel="stylesheet" href="stylesheets/style.css">
+        <script type="text/javascript" src="javascripts/jquery.min.js"></script>
+        <script type="text/javascript" src="javascripts/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+        <script type="text/javascript" src="javascripts/tablerender.js"></script>
+        <style>
+            .dataTables_empty{
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>NodeJs Assignment</h1>
+        <section>
+            <form>
+                <div>
+                    <label>ID</label>
+                    <input type="number" name="id" required>
+                </div>
+                <div>
+                    <label>First Name</label>
+                    <input type="text" name="fName" required>
+                </div>
+                <div>
+                    <label>Last Name</label>
+                    <input type="text" name="lName" required>
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div>
+                    <label>Pincode</label>
+                    <input type="number" name="pincode" required>
+                </div>
+                <div>
+                    <label>Birth Date</label>
+                    <input type="date" name="dob" required>
+                </div>
+                <div>
+                    <label>Active Status</label>
+                    <input type="radio" name="active" value="true" id="yes" required> Yes
+                    <input type="radio" name="active" value="false" id="no" required> No
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            
+        </section>
+        <section id="userTable">
+            <script type="text/x-jQuery-tmpl" id="user">
+                <tr>
+                    <td>${Id}</td>
+                    <td>${fName}</td>
+                    <td>${lName}</td>
+                    <td>${email}</td>
+                    <td>${pinCode}</td>
+                    <td>${birthDate}</td>
+                    <td>${isActive}</td>
+                </tr>
+            </script>
+            <h2>User details</h2>
+            <table>
+                <thead>
+                    <th>ID</th>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                    <th>Pincode</th>
+                    <th>Birthdate</th>
+                    <th>Active status</th>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+        <section id="todoTable">
+            <h2>Active users</h2>
+            <table>
+                <thead>
+                    <th>ID</th>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                    <th>Pincode</th>
+                    <th>Birthdate</th>
+                    <th>Active status</th>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+        <section id="searchTable">
+            <h2>Search users</h2>
+            <input type="number" name="search" placeholder="Enter the ID">
+            <button type="button">Get User</button>
+            <table>
+                <thead>
+                    <th>ID</th>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Email</th>
+                    <th>Pincode</th>
+                    <th>Birthdate</th>
+                    <th>Active status</th>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+    </body>
+</html>

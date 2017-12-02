@@ -1,0 +1,73 @@
+body {
+  padding: 50px;
+  font: 14px "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.dataTables_empty{
+  display: none;
+}
+h1,h2{
+  text-align: center;
+}
+form{
+  width: 500px;
+  margin: 0 auto;
+}
+label{
+  display: inline-block;
+  width: 200px;
+}
+form>div{
+  margin:20px 0;
+}
+input:not([name='active']){
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 0 5px;
+}
+button{
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+  background-color: #1d1da2;
+  border: none;
+  color: white;
+  font-weight: bold;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  transition: transform 0.3s;
+}
+button:hover{
+  transform: scale(1.1);
+}
+input[name="search"]{
+  margin: 20px auto;
+  display: block;
+}
+body{
+  background-image: url('../images/bg.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+table.dataTable tbody tr {
+    background-color: transparent;
+}
+table{
+  background-color: #ffffff59;
+}
+section{
+  margin-top: 50px;
+}
+#searchTable button{
+  margin-bottom: 25px;
+}

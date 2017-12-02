@@ -1,0 +1,57 @@
+{
+	"user": [{
+			"Id": 1,
+			"fName": "Naveen",
+			"lName": "Kumar",
+			"email": "naveen@gmail.com",
+			"pinCode": 600078,
+			"birthDate": "24-11-1993",
+			"isActive": "true"
+		},
+		{
+			"Id": 2,
+			"fName": "Naveen1",
+			"lName": "Kumar",
+			"email": "naveen1@gmail.com",
+			"pinCode": 600079,
+			"birthDate": "25-11-1993",
+			"isActive": "false"
+		},
+		{
+			"Id": 3,
+			"fName": "Naveen11",
+			"lName": "Kumar",
+			"email": "naveen11@gmail.com",
+			"pinCode": 600080,
+			"birthDate": "26-11-1993",
+			"isActive": "true"
+		},
+		{
+			"Id": 4,
+			"fName": "Naveen111",
+			"lName": "Kumar1",
+			"email": "naveen111@gmail.com",
+			"pinCode": 600090,
+			"birthDate": "27-11-1993",
+			"isActive": "true"
+		},
+		{
+			"Id": 5,
+			"fName": "Naveen1212",
+			"lName": "Kumar",
+			"email": "naveen121@gmail.com",
+			"pinCode": 600034,
+			"birthDate": "28-11-1993",
+			"isActive": "false"
+		},
+		{
+			"Id": 6,
+			"fName": "Naveen2123",
+			"lName": "Kumar",
+			"email": "naveen123@gmail.com",
+			"pinCode": 600024,
+			"birthDate": "29-11-1993",
+			"isActive": "true"
+		}
+	]
+}
